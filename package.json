@@ -11,7 +11,12 @@
   },
   "devDependencies": {
     "nuxt": "^3.9.3",
+    "nuxt-link-checker": "^3.0.0-rc.6",
+    "nuxt-typed-router": "^3.5.1",
     "vue": "^3.4.14",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "nuxt-icon": "^0.6.8"
   }
 }

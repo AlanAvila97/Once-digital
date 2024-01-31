@@ -59,5 +59,10 @@ export default defineNuxtConfig({
     '@/assets/css/footer.css',
   ],
   ssr: true,
+  modules: [ 
+    'nuxt-icon',
+    'nuxt-typed-router',
+    'nuxt-link-checker'
+  ],
   devtools: { enabled: true }
 })
