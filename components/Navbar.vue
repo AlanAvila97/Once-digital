@@ -6,28 +6,28 @@
                 <input type="checkbox" class="menu-btn" id="openSidebarMenu">
                 <div id="sidebarMenu">
                     <div class="container-menu scroll-menu">
-                        <a id="MenuInicio" href="./" class="items Seccion-Menu">Inicio</a>
-                        <a id="MenuHorarios" href="./horarios" class="items Seccion-Menu">Horarios</a>
+                        <nuxt-link id="MenuInicio" to="./" class="items Seccion-Menu">Inicio</nuxt-link>
+                        <nuxt-link id="MenuHorarios" to="./horarios" class="items Seccion-Menu">Horarios</nuxt-link>
                         <hr>
-                        <a class="items Seccion-Menu onceplus" href="./once">
+                        <nuxt-link class="items Seccion-Menu onceplus" to="./once">
                             <picture>
                                 <source class="lazy img-fluid" srcset="https://canalonce.mx/REST/data/images/logo_oncemas_154x50.webp" type="image/webp" alt="Logo Once" loading="lazy">
                                 <source class="lazy img-fluid" srcset="https://canalonce.mx/REST/data/images/logo_oncemas_154x50.png" type="image/png" alt="Logo Once" loading="lazy"> 
                                 <img class="img-fluid lazy" src="https://canalonce.mx/REST/data/images/logo_oncemas_154x50.webp" alt="Logo Once" width="139" height="30">
                             </picture>
-                        </a>
-                        <a class="items Seccion-Menu" href="https://oncenoticias.digital/">Once Noticias</a>
-                        <a class="items Seccion-Menu" href="https://onceninasyninos.tv/">Once Niñas y Niños</a>
-                        <a class="items Seccion-Menu" href="./mexico">Once México</a>
-                        <a class="items Seccion-Menu" href="./digital">Once Digital</a>
+                        </nuxt-link>
+                        <nuxt-link class="items Seccion-Menu" to="https://oncenoticias.digital/">Once Noticias</nuxt-link>
+                        <nuxt-link class="items Seccion-Menu" to="https://onceninasyninos.tv/">Once Niñas y Niños</nuxt-link>
+                        <nuxt-link class="items Seccion-Menu" to="./mexico">Once México</nuxt-link>
+                        <nuxt-link class="items Seccion-Menu" to="./digital">Once Digital</nuxt-link>
                         <hr>
-                        <!-- <a class="items">Institucional</a> -->
-                        <a class="items Seccion-Menu" href="./sobre-canal-once"> Acerca de El Once </a>
-                        <a class="items Seccion-Menu" href="./transparencia"> Transparencia </a>
-                        <a id="MenuAvisoPrivacidad" class="items Seccion-Menu" href="./sobre-canal-once/privacidad"> Aviso de Privacidad </a>
-                        <a id="MenuColaboraNosotros" class="items Seccion-Menu" href="./sobre-canal-once/colabora"> Colabora con Nosotros </a>
-                        <a id="MenuHistorico" class="items Seccion-Menu" href="./archivo-historico"> Archivo Histórico </a>
-                        <a id="MenuContacto" class="items Seccion-Menu" href="./sobre-canal-once/contacto"> Contacto </a>                         
+                        <!-- <nuxt-link class="items">Institucional</nuxt-link> -->
+                        <nuxt-link class="items Seccion-Menu" to="./sobre-canal-once"> Acerca de El Once </nuxt-link>
+                        <nuxt-link class="items Seccion-Menu" to="./transparencia"> Transparencia </nuxt-link>
+                        <nuxt-link id="MenuAvisoPrivacidad" class="items Seccion-Menu" to="./sobre-canal-once/privacidad"> Aviso de Privacidad </nuxt-link>
+                        <nuxt-link id="MenuColaboraNosotros" class="items Seccion-Menu" to="./sobre-canal-once/colabora"> Colabora con Nosotros </nuxt-link>
+                        <nuxt-link id="MenuHistorico" class="items Seccion-Menu" to="./archivo-historico"> Archivo Histórico </nuxt-link>
+                        <nuxt-link id="MenuContacto" class="items Seccion-Menu" to="./sobre-canal-once/contacto"> Contacto </nuxt-link>                         
                         <hr>
                         <div class="container-social-networks">
                             <p id="MenuTWCanalOnceTv" class="social-icons icon-social-network Seccion-Menu" data-href="https://twitter.com/CanalOnceTV">
