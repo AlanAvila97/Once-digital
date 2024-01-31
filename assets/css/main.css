@@ -27,7 +27,6 @@ p{
 .pt-md-60{
     padding-top: 60px;
 }
-
 .pt-md-100{
     padding-top: 100px;
 }
@@ -43,9 +42,14 @@ p{
 .pb-mb-100{
     padding-bottom: 100px;
 }
-
 .mr-mt-70{
     padding-top: 70px;
+}
+.pt-md-70{
+    padding-top: 70px;
+}
+.pt-md-90{
+    padding-top: 90px;
 }
 .txt-center{
     text-align: center;
