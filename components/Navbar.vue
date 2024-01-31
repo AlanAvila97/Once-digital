@@ -21,7 +21,6 @@
                         <nuxt-link class="items Seccion-Menu" to="./mexico">Once México</nuxt-link>
                         <nuxt-link class="items Seccion-Menu" to="./digital">Once Digital</nuxt-link>
                         <hr>
-                        <!-- <nuxt-link class="items">Institucional</nuxt-link> -->
                         <nuxt-link class="items Seccion-Menu" to="./sobre-canal-once"> Acerca de El Once </nuxt-link>
                         <nuxt-link class="items Seccion-Menu" to="./transparencia"> Transparencia </nuxt-link>
                         <nuxt-link id="MenuAvisoPrivacidad" class="items Seccion-Menu" to="./sobre-canal-once/privacidad"> Aviso de Privacidad </nuxt-link>
@@ -31,7 +30,6 @@
                         <hr>
                         <div class="container-social-networks">
                             <p id="MenuTWCanalOnceTv" class="social-icons icon-social-network Seccion-Menu" data-href="https://twitter.com/CanalOnceTV">
-                                <!-- <i class="fab fa-twitter"></i> -->
                                 <i class="fa-brands fa-x-twitter"></i>
                             </p>
                             <p id="MenuFCCanalOnceTv" class="social-icons icon-social-network Seccion-Menu" data-href="https://www.facebook.com/CANALONCETV/">
@@ -51,33 +49,33 @@
                 </div>
             </div>
             <div class="logo">
-                <a href="/">                    
+                <nuxt-link to="/">                    
                     <picture>
                         <source class="lazy img-fluid" srcset="https://canaloncetv.s3.us-east-1.amazonaws.com/REST/data/images/logo-menu.webp" type="image/webp" alt="Logo Once" loading="lazy">
                         <source class="lazy img-fluid" srcset="https://canaloncetv.s3.us-east-1.amazonaws.com/REST/data/images/logo-menu.png" type="image/png" alt="Logo Once" loading="lazy"> 
                         <img class="img-fluid lazy" src="https://canaloncetv.s3.us-east-1.amazonaws.com/REST/data/images/logo-menu.webp" alt="Logo Once" width="139" height="45">
                     </picture>
-                </a>
+                </nuxt-link>
             </div><!-- End div logo -->
             <div class="sections-nav">
                 <ul class="elements-nav">
                     <li class="live"> 
-                        <a href="./en-vivo">
+                        <nuxt-link to="./en-vivo">
                             <i class="fa fa-circle"></i>&nbsp;en vivo 
-                        </a>
+                        </nuxt-link>
                     </li>
                     <li class="programation">
-                        <a href="./horarios"> Horarios 
-                        </a>
+                        <nuxt-link to="./horarios"> Horarios 
+                        </nuxt-link>
                     </li>                
                     <li class="onceplus">
-                        <a href="./once"> 
+                        <nuxt-link to="./once"> 
                             <picture>
                                 <source class="lazy img-fluid" srcset="https://canalonce.mx/REST/data/images/logo_oncemas_154x50.webp" type="image/webp" alt="Logo Once" loading="lazy">
                                 <source class="lazy img-fluid" srcset="https://canalonce.mx/REST/data/images/logo_oncemas_154x50.png" type="image/png" alt="Logo Once" loading="lazy"> 
                                 <img class="img-fluid lazy" src="https://canalonce.mx/REST/data/images/logo_oncemas_154x50.webp" alt="Logo Once" width="139" height="30">
                             </picture>
-                        </a>                    
+                        </nuxt-link>                    
                     </li>
                     <li class="podcast">
                         <p class="clic-scroll" data-element="podcast"> Podcasts  </p>
@@ -94,67 +92,66 @@
                         <div class="list-more">
                             <div class="container-list-down">
                                 <div class="lists-down list-navigation">
-                                    <a href="./en-vivo" class="drop-live en-vivo"> <i class="fa fa-circle"></i> &nbsp; En vivo </a>                                    
-                                    <a href="./horarios" class="horario"> Horarios </a>                                    
-                                    <a href="./once" class="once"> Once+ </a>                                    
+                                    <nuxt-link to="./en-vivo" class="drop-live en-vivo"> <i class="fa fa-circle"></i> &nbsp; En vivo </nuxt-link>                                    
+                                    <nuxt-link to="./horarios" class="horario"> Horarios </nuxt-link>                                    
+                                    <nuxt-link to="./once" class="once"> Once+ </nuxt-link>                                    
                                     <p class="redirect-list podcast clic-scroll" data-element="podcast"> Podcast </p>                                    
                                     <p class="redirect-list blogs clic-scroll" data-element="blogs"> Blogs </p>                                    
                                 </div>
                                 <div class="lists-down list-site">
-                                    <a class="onceplus" href="./once"> 
+                                    <nuxt-link class="onceplus" to="./once"> 
                                         <picture>
                                             <source class="lazy img-fluid" srcset="https://canalonce.mx/REST/data/images/logo_oncemas_154x50.webp" type="image/webp" alt="Logo Once" loading="lazy">
                                             <source class="lazy img-fluid" srcset="https://canalonce.mx/REST/data/images/logo_oncemas_154x50.png" type="image/png" alt="Logo Once" loading="lazy"> 
                                             <img class="img-fluid lazy" src="https://canalonce.mx/REST/data/images/logo_oncemas_154x50.webp" alt="Logo Once" width="139" height="30">
                                         </picture>
-                                    </a>                                        
-                                    <a href="https://oncenoticias.digital/"> Once Noticias</a>
-                                    <a href="https://onceninasyninos.tv/"> Once Niñas y Niños </a>
-                                    <a href="./mexico"> Once México </a>
-                                    <a href="./digital"> Once Digital </a>
+                                    </nuxt-link>                                        
+                                    <nuxt-link to="https://oncenoticias.digital/"> Once Noticias</nuxt-link>
+                                    <nuxt-link to="https://onceninasyninos.tv/"> Once Niñas y Niños </nuxt-link>
+                                    <nuxt-link to="./mexico"> Once México </nuxt-link>
+                                    <nuxt-link to="./digital"> Once Digital </nuxt-link>
                                 </div>
                                 <div class="lists-down list-about">
                                     <h2>Institucional</h2>
-                                    <a href="./sobre-canal-once"> Acerca de El Once </a>
-                                    <a href="./transparencia"> Transparencia </a>
-                                    <a href="./sobre-canal-once/privacidad"> Aviso de Privacidad </a>
-                                    <a href="./sobre-canal-once/colabora"> Colabora con Nosotros </a>
-                                    <a href="./archivo-historico"> Archivo Histórico </a>
-                                    <a href="./sobre-canal-once/contacto"> Contacto </a>                                    
-                                    <!-- <a class="contacto" href="./sobre-canal-once/contacto"> Contáctanos </a>                                     -->
+                                    <nuxt-link to="./sobre-canal-once"> Acerca de El Once </nuxt-link>
+                                    <nuxt-link to="./transparencia"> Transparencia </nuxt-link>
+                                    <nuxt-link to="./sobre-canal-once/privacidad"> Aviso de Privacidad </nuxt-link>
+                                    <nuxt-link to="./sobre-canal-once/colabora"> Colabora con Nosotros </nuxt-link>
+                                    <nuxt-link to="./archivo-historico"> Archivo Histórico </nuxt-link>
+                                    <nuxt-link to="./sobre-canal-once/contacto"> Contacto </nuxt-link>                                    
                                 </div>
                                 <div class="lists-down list-sites">      
                                     <h2>SÍGUENOS</h2>
-                                    <a href="https://www.facebook.com/CanalOnceTV" target="_blank" aria-label="Redirección a facebook"> 
+                                    <nuxt-link to="https://www.facebook.com/CanalOnceTV" target="_blank" aria-label="Redirección a facebook"> 
                                         <span class="fa-stack">
                                             <i class="far fa-square fa-stack-2x"></i>
                                             <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
                                         </span>
-                                    </a>
-                                    <a href="https://twitter.com/CanalOnceTV" target="_blank" aria-label="Redirección a twitter">
+                                    </nuxt-link>
+                                    <nuxt-link to="https://twitter.com/CanalOnceTV" target="_blank" aria-label="Redirección a twitter">
                                         <span class="fa-stack">
                                             <i class="far fa-square fa-stack-2x"></i>
                                             <i class="fa-brands fa-x-twitter fa-stack-1x fa-inverse"></i>
                                         </span>
-                                    </a>
-                                    <a href="https://www.instagram.com/canaloncetv/" target="_blank" aria-label="Redirección a instagram"> 
+                                    </nuxt-link>
+                                    <nuxt-link to="https://www.instagram.com/canaloncetv/" target="_blank" aria-label="Redirección a instagram"> 
                                         <span class="fa-stack">
                                             <i class="far fa-square fa-stack-2x"></i>
                                             <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
                                         </span>
-                                    </a>
-                                    <a href="https://www.youtube.com/user/CanalOnceIPN" target="_blank" aria-label="Redirección a youtube"> 
+                                    </nuxt-link>
+                                    <nuxt-link to="https://www.youtube.com/user/CanalOnceIPN" target="_blank" aria-label="Redirección a youtube"> 
                                         <span class="fa-stack">
                                             <i class="far fa-square fa-stack-2x"></i>
                                             <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
                                         </span>
-                                    </a>
-                                    <a href="https://www.tiktok.com/@canaloncetv" target="_blank" aria-label="Redirección a tiktok"> 
+                                    </nuxt-link>
+                                    <nuxt-link to="https://www.tiktok.com/@canaloncetv" target="_blank" aria-label="Redirección a tiktok"> 
                                         <span class="fa-stack">
                                             <i class="far fa-square fa-stack-2x"></i>
                                             <i class="fab fa-tiktok fa-stack-1x fa-inverse"></i>
                                         </span>
-                                    </a>
+                                    </nuxt-link>
                                 </div>
                             </div>
                         </div>
@@ -167,9 +164,9 @@
                     <input id="input-search" name="input-search" class="search" type="search" placeholder="Buscador">
                 </div><!-- End div input search -->
                 <div class="button-search d-none">
-                    <a href="./buscador?type=general&q=Ingresa tu Busqueda">
+                    <nuxt-link to="./buscador?type=general&q=Ingresa tu Busqueda">
                         <i class="fa fa-search" aria-hidden="true"></i>
-                    </a>
+                    </nuxt-link>
                 </div><!-- End div button search -->
             </div><!-- End div container searcher -->
         </div> <!-- End div container header -->

@@ -62,6 +62,7 @@ export default defineNuxtConfig({
   modules: [ 
     'nuxt-aos',
     'nuxt-icon',
+    'nuxt-csurf',
     'nuxt-viewport',
     'nuxt-typed-router',
     'nuxt-link-checker',

@@ -2,21 +2,21 @@
     <footer class="footer" >
         <div class="container-footer">
             <div class="title-footer">
-                    <p>
-                        El Once es la primera televisora pública de México y una de las primeras aliadas de la diversidad y la Inclusión. 
-                        Consulta los horarios de nuestras producciones y conéctate a los contenidos que tenemos para ti en TV, redes sociales y ONCE +
-                    </p>
-                    <hr>
+                <p>
+                    El Once es la primera televisora pública de México y una de las primeras aliadas de la diversidad y la Inclusión. 
+                    Consulta los horarios de nuestras producciones y conéctate a los contenidos que tenemos para ti en TV, redes sociales y ONCE +
+                </p>
+                <hr>
             </div><!-- End Title Footer --> 
             <div class="images-footer">
-                <nuxt-link to="/#" class="once-logo">
+                <nuxt-link to="./" class="once-logo">
                     <picture >
                         <source class="lazy img-fluid" srcset="https://canaloncetv.s3.us-east-1.amazonaws.com/REST/data/images/logo-menu.webp" type="image/webp" alt="Logo Once" loading="lazy">
                         <source class="lazy img-fluid" srcset="https://canaloncetv.s3.us-east-1.amazonaws.com/REST/data/images/logo-menu.webp" type="image/png" alt="Logo Once" loading="lazy"> 
                         <img class="lazy img-fluid" src="https://canaloncetv.s3.us-east-1.amazonaws.com/REST/data/images/logo-menu.webp" alt="Logo Once" loading="lazy" title="Logo Once" width="250" height="81">
                     </picture>
                 </nuxt-link><!-- End Image Footer --> 
-                <nuxt-link to="/e5cinco">
+                <nuxt-link to="./e5cinco">
                     <picture>
                         <source class="lazy img-fluid" srcset="https://canalonce.mx/REST/data/images/e5Logo.png" type="image/webp" alt="Logo Once" loading="lazy">
                         <source class="lazy img-fluid" srcset="https://canalonce.mx/REST/data/images/e5Logo.png" type="image/png" alt="Logo Once" loading="lazy"> 
@@ -83,7 +83,7 @@
                     </div><!-- End About Canal Once -->
                     <div class="sites-canal-once">
                         <hr>
-                        <a href="https://oncenoticias.digital/"><p>Once Noticias</p></a>
+                        <nuxt-link to="https://oncenoticias.digital/"><p>Once Noticias</p></nuxt-link>
                         <nuxt-link to="/once-ninos"><p>Once Niñas y Niños</p></nuxt-link>
                         <nuxt-link to="/mexico"><p>Once México Internacional</p></nuxt-link>
                         <nuxt-link to="/digital"><p>Once Digital</p></nuxt-link>
