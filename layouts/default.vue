@@ -1,6 +1,8 @@
 <template>
     <div>
-        <slot/>        
+        <Navbar></Navbar>
+        <slot/>     
+        <Footer></Footer>   
     </div>
 </template>
 <script setup>

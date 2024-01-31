@@ -1,12 +1,10 @@
 <template>
-    <div>
-
-    </div>
+    <main id="wrapper" class="bg-home index">
+        
+    </main>
 </template>
 
 <script setup>
-    const appConfig = useAppConfig()
-
 </script>
 
 <style lang="scss" scoped>
