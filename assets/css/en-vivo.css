@@ -1,0 +1,72 @@
+/*-------------------------------------------------------------
+# Section En vivo
+--------------------------------------------------------------*/
+.section-reproductor-live .container-reproductor-live{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 2%;
+}
+.section-reproductor-live .container-reproductor-live .title-reproductor-live{
+    color: #fff;
+}
+.section-reproductor-live .container-reproductor-live hr{
+    background: #cdcdcd;
+    border: 1px solid #cdcdcd;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #cdcdcd;
+    opacity: 1!important;
+    height: 2px!important;
+    width: 100%;
+}
+.section-reproductor-live .container-reproductor-live .title-reproductor-live h2{
+    text-transform: uppercase;
+    font-size: 2.3rem;
+}
+.section-reproductor-live .container-reproductor-live .title-reproductor-live .description{
+    font-size: 1.3rem;
+}
+.section-reproductor-live .container-reproductor-live hr{
+    background: #cdcdcd;
+    border: 1px solid #cdcdcd;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #cdcdcd;
+    opacity: 1!important;
+    height: 2px!important;
+    width: 100%;
+}
+.section-reproductor-live .container-reproductor-live .content-reproductor-live{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+    margin-bottom: 3%;
+}
+.section-reproductor-live .container-reproductor-live .content-reproductor-live .reproductor-live {
+    height: 100%;
+    width: 100%;
+    max-width: 950px;
+}
+.section-reproductor-live .container-reproductor-live .title-program-live{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.section-reproductor-live .container-reproductor-live .title-program-live h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+}
+.section-reproductor-live .container-reproductor-live .title-program-live hr{
+    margin-bottom: 1%;
+}
+.section-reproductor-live .container-reproductor-live .title-program-live p{
+    color: #fff;
+    font-size: 1.1rem;
+}
+.section-reproductor-live .container-reproductor-live .title-program-live .sinopsis-program{
+    font-size: 1.6rem;
+}

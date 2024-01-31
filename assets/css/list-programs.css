@@ -1,0 +1,331 @@
+.section-interior-program .container-programs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2% 4% 0%;
+}
+.container-info-pgm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+}
+.container-info-pgm .description-pgm{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: flex-start;
+}
+.container-info-pgm .description-pgm .content-img-logo{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-info-pgm .description-pgm .content-img-logo .logo-pgm{
+    width: auto;
+    height: auto;
+}
+
+.container-info-pgm .description-pgm .title-pgm{
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #fff; 
+}
+.container-info-pgm .description-pgm .title-pgm h1{
+    color: #fff;
+    font-size: 2rem;
+}
+.container-info-pgm .description-pgm .sinopsis-pgm{
+    border-bottom: 2px solid #fff; 
+    padding-bottom: 2%;
+    width: 100%;
+}
+.container-info-pgm .description-pgm .sinopsis-pgm h3{
+    color: #fff;
+    font-size: 1.2rem;    
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.container-info-pgm .description-pgm .sinopsis-pgm p{
+    color: #fff;
+    font-size: 1.1rem;    
+}
+.container-info-pgm .description-pgm .icons-social-networks{   
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.container-info-pgm .description-pgm .icons-social-networks .social-networks{   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.container-info-pgm .description-pgm .icons-social-networks .social-networks h2{
+    color: #fff;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.container-info-pgm .description-pgm .icons-social-networks a,
+.container-info-pgm .description-pgm .icons-social-networks a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.container-info-pgm .description-pgm .icons-social-networks a span{
+    font-size: 1.5rem;
+}   
+.container-info-pgm .description-pgm .icons-social-networks a span .fa-circle{
+    color: #fff;
+}
+.container-info-pgm .description-pgm .icons-social-networks a span i{
+    color: #000;
+}
+
+.container-info-pgm .description-pgm .icons-social-networks .social-blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container-info-pgm .description-pgm .icons-social-networks .social-blog h2{
+    color: #fff;
+    width: auto;
+}
+.container-info-pgm .description-pgm .icons-social-networks .social-blog .blog{
+    font-size: 1.3em;
+    text-decoration: none;
+    background: #fff0;
+    width: 50px;
+    color: #5e0a23;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.container-info-pgm .description-pgm .icons-social-networks .social-blog .blog img{
+    filter: invert(1);
+    width: 80%;
+    height: auto;
+}
+.container-info-pgm .description-pgm .time-pgm{
+    text-align: center;
+    width: 100%;
+}
+.container-info-pgm .description-pgm .time-pgm h3{
+    color: #fff;
+    font-size: 1.2rem;    
+}
+.container-info-pgm .description-pgm .clasification-pgm{
+    text-align: center;
+    width: 100%;
+}
+.container-info-pgm .description-pgm .clasification-pgm h3{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.container-info-pgm .trailer-pgm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 65%;
+}
+.container-info-pgm .trailer-pgm .trailer{
+    background-image: url(https://canaloncetv.s3.us-east-1.amazonaws.com/REST/data/images/once-mas-lg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+    height: 100%;
+    padding: 25%;
+}
+.container-info-pgm .trailer-pgm .trailer .logo-once-plus{
+    width: 50%;
+    height: auto;
+}
+.container-info-pgm .trailer-pgm .trailer .logo-once-plus img{
+    width: 100%;
+    height: auto;
+}
+.container-info-pgm .trailer-pgm .video-trailer{
+    width: 100%;
+    height: auto;
+}
+.container-info-pgm .trailer-pgm .video-trailer video{
+    width: 100%;
+    height: 100%;
+}
+.container-info-pgm .trailer-pgm .content-share{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2%;
+}
+.container-info-pgm .trailer-pgm .content-share img{
+    width: 6%;
+    height: auto;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    margin-right: 4%;
+    margin-top: 1%;
+}
+.container-info-pgm .trailer-pgm .content-share h3{
+    color: #fff;
+    font-size: 1.3rem;
+}
+.container-list-pgms{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+}
+.title-list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-list h2{
+    color: #fff;
+    font-size: 2.2rem;
+}
+.title-list .seasons{
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.4em;
+    padding: 1%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.title-list .seasons option,
+.title-list .seasons option:checked{
+    cursor: pointer;
+    color: #5e0a23;
+}
+.title-list .seasons:focus-visible{
+    border: none;
+    outline-color: #5e0a23!important;
+    box-shadow: 0px 0px 3px 2px #fff;
+    outline-style: none;
+}
+.filter-tags{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
+}
+.filter-tags h2{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.filter-tags .tags{
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.4em;
+    padding: 1%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.filter-tags .tags option,
+.filter-tags .tags option:checked{
+    cursor: pointer;
+    color: #5e0a23;
+}
+.filter-tags .tags:focus-visible{
+    border: none;
+    outline-color: #5e0a23!important;
+    box-shadow: 0px 0px 3px 2px #fff;
+    outline-style: none;
+}
+.list-episodes{
+    width: 100%;
+    height: 100%;
+}
+.list-episodes .list{
+    list-style: none;
+}
+.list-episodes .list .items-list{
+    margin-bottom: 1.2%;
+}
+.list-episodes .list .items-list .episode{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    color: #fff;
+    border-bottom: 2px solid #fff; 
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+.list-episodes .list .items-list .episode:hover{
+    color: #fff;
+}
+.list-episodes .list .items-list .episode h3{
+    color: #fff;
+    font-size: 1.1rem;
+}
+.list-episodes .list .items-list .episode .play{
+    width: 37px;
+    height: 37px;
+    margin-right: 1%;
+}
+@media (max-width: 991px){
+    .container-info-pgm{
+        flex-direction: column; 
+    }
+    .container-info-pgm .description-pgm{
+        width: 100%;
+        padding: 2% 0%;    
+    }
+    .container-info-pgm .description-pgm .sinopsis-pgm h3{
+        font-size: 1.5rem;
+    }
+    .container-info-pgm .trailer-pgm {
+        background-size: cover;
+        height: auto;
+        width: 100%;
+    }
+    .title-list{
+        width: 100%;
+    }
+    .list-episodes{
+        width: 100%;
+    }
+}
+@media (max-width: 700px){
+
+}
