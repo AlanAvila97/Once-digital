@@ -53,13 +53,11 @@ export default defineNuxtConfig({
         ]
     }
   },
-  webpack: {
-    loaders: {
-      vue: {
-        hotReload: true,
-      }
-    }
-  },
+  css:[
+    '@/assets/css/main.css',
+    '@/assets/css/navbar.css',
+    '@/assets/css/footer.css',
+  ],
   ssr: true,
   devtools: { enabled: true }
 })
