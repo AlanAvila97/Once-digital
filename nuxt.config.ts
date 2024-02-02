@@ -67,6 +67,7 @@ export default defineNuxtConfig({
     'nuxt-typed-router',
     'nuxt-link-checker',
     'nuxt-payload-analyzer',
+    '@pinia/nuxt',
     '@nuxthq/studio',
   ],
   devtools: { enabled: true },
@@ -120,4 +121,7 @@ export default defineNuxtConfig({
 
     fallbackBreakpoint: 'desktop',
   },
+  // prepare: {
+  //   scripts: ['server.prepare', 'process.prepare']
+  // }
 })
